@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Form</title></head>
+<body>
+<form onsubmit="return f1()" >
+<table border="1" bgcolor="pink" align="center">
+<tr align="center">
+<th>Form</th>
+</tr>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="uname" required/></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="upass" maxlength="15" required/></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="rad">Male
+<input type="radio" name="rad">Female<br></td>
+</tr>
+<tr>
+<td>Hobbies:</td>
+<td><input type="checkbox" name="chk">Playing
+<input type="checkbox" name="chk1">Cooking
+<input type="checkbox" name="chk2">Reading</td>
+</tr>
+<tr>
+<td>Country:</td>
+<td><select>
+<option value="India">India</option>
+<option value="China">China</option>
+<option value="USA">USA</option>
+<option value="Japan">Japan</option>
+</select></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><textarea rows="10" cols="30"/></textarea><br></td>
+</tr>
+<tr>
+<td><input type="submit" value="Save"/>
+<input type="reset" value="Cancel"/></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
